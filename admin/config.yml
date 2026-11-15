@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: olfounder/forma
+  repo: olfounder/forms
   branch: main
   base_url: https://sveltia-cms-auth.okklania.workers.dev
 
