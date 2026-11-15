@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: olfounder/forma
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    files:
+      - name: "posts"
+        label: "All Posts"
+        file: "posts.json"
+        format: "json"
+        fields:
+          - name: "posts"
+            label: "Posts"
+            widget: "list"
+            fields:
+              - { name: "category", label: "Category", widget: "string" }
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - { name: "date", label: "Date", widget: "string" }
+              
+              - { name: "heading_1", label: "Heading 1", widget: "string", required: false }
+              - { name: "text_1", label: "Text 1", widget: "text", required: false }
+              
+              - { name: "heading_2", label: "Heading 2", widget: "string", required: false }
+              - { name: "text_2", label: "Text 2", widget: "text", required: false }
+              
+              - { name: "heading_3", label: "Heading 3", widget: "string", required: false }
+              - { name: "text_3", label: "Text 3", widget: "text", required: false }
+              
+              - { name: "image_1", label: "Image 1", widget: "image", required: false }
+              - { name: "image_2", label: "Image 2", widget: "image", required: false }
+              - { name: "image_3", label: "Image 3", widget: "image", required: false }
+              - { name: "image_4", label: "Image 4", widget: "image", required: false }
+              - { name: "image_5", label: "Image 5", widget: "image", required: false }
+              - { name: "image_6", label: "Image 6", widget: "image", required: false }
+              - { name: "image_7", label: "Image 7", widget: "image", required: false }
+              - { name: "image_8", label: "Image 8", widget: "image", required: false }
+              - { name: "image_9", label: "Image 9", widget: "image", required: false }
+              - { name: "image_10", label: "Image 10", widget: "image", required: false }
+              
+              - { name: "link_label", label: "Link Label", widget: "string", required: false }
+              - { name: "link", label: "Link URL", widget: "string", required: false }
