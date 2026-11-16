@@ -22,6 +22,29 @@
       "image_9": "",
       "link_label": "Contact me",
       "link": "mailto:info@olfounder.link"
+    },
+    {
+      "category": "blog",
+      "title": "New blog on my website!",
+      "description": "The whole blog on my website is getting a redesign.",
+      "date": "16. 11. 2026",
+      "heading_1": "What is changing?",
+      "text_1": "The blog no longer runs through the Google ecosystem - it now depends on GitHub.",
+      "heading_2": "What changes can I see?",
+      "text_2": "First of all, the blog is much faster. Also, there may be a third heading, third text and up to 9 images. The design won't change much.",
+      "heading_3": "Demonstrating the third heading",
+      "text_3": "And the third text :-)",
+      "image_1": "",
+      "image_2": "",
+      "image_3": "",
+      "image_4": "",
+      "image_5": "",
+      "image_6": "",
+      "image_7": "",
+      "image_8": "",
+      "image_9": "",
+      "link_label": "Get your own blog",
+      "link": "https://olfounder.link/web/"
     }
   ]
 }
