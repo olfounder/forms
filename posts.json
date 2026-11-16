@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "category": "mcbm",
+      "category": "Mcbm",
       "title": "Mcbm will be getting a redesign",
       "description": "After some longer period of time, MCBM will be finally getting a new design created with Material You.",
       "date": "15. 11. 2026",
@@ -24,7 +24,7 @@
       "link": "mailto:info@olfounder.link"
     },
     {
-      "category": "blog",
+      "category": "Blog",
       "title": "New blog on my website!",
       "description": "The whole blog on my website is getting a redesign.",
       "date": "16. 11. 2026",
